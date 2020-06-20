@@ -518,7 +518,7 @@ body, html {
   border: 1px solid #AEAEAE;
   width: 135px;
   height: 0px;
-  margin: 25% auto auto 47%;
+  margin: 25% auto auto 45%;
 }
 
 #container-border .container-ux {
@@ -536,11 +536,11 @@ body, html {
 
 @media screen and (min-width: 370px) {
   #container-border {
-    margin: 30% auto auto 40%;
-    width: 170px;
+    margin: 30% auto auto 45%;
+    width: 150px;
   }
   #container-border .container-ux {
-    margin: -7% auto auto -70%;
+    margin: -7% auto auto -90%;
   }
 }
 
@@ -6778,6 +6778,13 @@ body, html {
 .travel-research-intro .travel-interview .travel-interview-img {
   width: 100%;
   margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 370px) {
+  .travel-research-intro .travel-interview .travel-interview-img {
+    width: 130%;
+    margin: 10% auto auto -5%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
