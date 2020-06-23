@@ -250,6 +250,18 @@ body, html {
   width: 90%;
 }
 
+@media screen and (min-width: 820px) {
+  .container-header-text .container-head {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container-header-text .container-head {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 319px) {
   .container-header-text {
     margin: -5% auto auto auto;
