@@ -1216,6 +1216,146 @@ body, html {
   }
 }
 
+#container-border6 {
+  border: 1px solid #AEAEAE;
+  width: 135px;
+  height: 0px;
+  margin: 20% auto auto 47%;
+}
+
+#container-border6 .container-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #AEAEAE;
+  font-size: 0.8rem;
+  margin: -8% auto auto -90%;
+}
+
+@media screen and (min-width: 370px) {
+  #container-border6 {
+    margin: 20% auto auto 40%;
+    width: 170px;
+  }
+  #container-border6 .container-events {
+    margin: -7% auto auto -70%;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #container-border6 {
+    margin: 20% auto auto 35%;
+    width: 320px;
+  }
+  #container-border6 .container-events {
+    margin: -3% auto auto -50%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  #container-border6 {
+    margin: 15% auto auto 30%;
+    width: 380px;
+  }
+  #container-border6 .container-events {
+    margin: -3% auto auto -40%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #container-border6 {
+    margin: 15% auto auto 28%;
+    width: 450px;
+  }
+  #container-border6 .container-events {
+    margin: -2% auto auto -30%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #container-border6 {
+    margin: 15% auto auto 28%;
+    width: 450px;
+  }
+  #container-border6 .container-events {
+    margin: -2% auto auto -30%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  #container-border6 {
+    margin: 15% auto auto 28%;
+    width: 510px;
+  }
+  #container-border6 .container-events {
+    margin: -2% auto auto -30%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #container-border6 {
+    margin: 15% auto auto 25%;
+    width: 610px;
+  }
+  #container-border6 .container-events {
+    margin: -2% auto auto -25%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #container-border6 {
+    margin: 15% auto auto 25%;
+    width: 670px;
+  }
+  #container-border6 .container-events {
+    margin: -1.5% auto auto -25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #container-border6 {
+    margin: 10% auto auto 30%;
+    width: 700px;
+  }
+  #container-border6 .container-events {
+    margin: -1.5% auto auto -20%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  #container-border6 {
+    margin: 10% auto auto 32%;
+    width: 700px;
+  }
+  #container-border6 .container-events {
+    margin: -1.5% auto auto -20%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #container-border6 {
+    margin: 10% auto auto 33%;
+    width: 700px;
+  }
+  #container-border6 .container-events {
+    margin: -1.5% auto auto -20%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  #container-border6 {
+    margin: 10% auto auto 35%;
+    width: 700px;
+  }
+  #container-border6 .container-events {
+    margin: -1.5% auto auto -20%;
+  }
+}
+
 .container-travel {
   color: #F0F0F0;
   margin: 20% auto auto 10%;
@@ -3203,416 +3343,6 @@ body, html {
 
 @media screen and (min-width: 2000px) {
   .container-interactions .interaction-mock img {
-    width: 25%;
-    margin: -40% auto auto 35%;
-  }
-}
-
-.container-dribbble-content {
-  color: #F0F0F0;
-  margin: 20% auto auto 10%;
-  -webkit-box-flex: wrap;
-      -ms-flex: wrap;
-          flex: wrap;
-}
-
-@media screen and (min-width: 990px) {
-  .container-dribbble-content {
-    margin: 15% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .container-dribbble-content {
-    margin: 15% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content {
-    margin: 15% auto auto 22%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-dribbble-content {
-    margin: 15% auto auto 25%;
-  }
-}
-
-.container-dribbble-content .heading {
-  font-size: 28px;
-  width: 90%;
-}
-
-.container-dribbble-content .tag1, .container-dribbble-content .tag2, .container-dribbble-content .tag3, .container-dribbble-content .tag4, .container-dribbble-content .tag5 {
-  font-size: 0.8rem;
-  color: #AEAEAE;
-}
-
-.container-dribbble-content .tag1 {
-  width: 102px;
-  height: 34px;
-  background: #464646;
-  border-radius: 20px;
-  margin: 10% auto auto 0%;
-  text-align: center;
-  line-height: 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-@media screen and (min-width: 720px) {
-  .container-dribbble-content .tag1 {
-    margin: 5% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .tag1 {
-    margin: 3% auto auto 0%;
-  }
-}
-
-.container-dribbble-content .tag2 {
-  width: 120px;
-  height: 34px;
-  background: #464646;
-  border-radius: 20px;
-  margin: 10% auto auto 0%;
-  text-align: center;
-  line-height: 32px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: -12.7% auto auto 42%;
-}
-
-@media screen and (min-width: 370px) {
-  .container-dribbble-content .tag2 {
-    margin: -10.5% auto auto 35%;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .container-dribbble-content .tag2 {
-    margin: -9.8% auto auto 32%;
-  }
-}
-
-@media screen and (min-width: 560px) {
-  .container-dribbble-content .tag2 {
-    margin: -7% auto auto 23%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-dribbble-content .tag2 {
-    margin: -6% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-dribbble-content .tag2 {
-    margin: -5.5% auto auto 18%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-dribbble-content .tag2 {
-    margin: -5.5% auto auto 17%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-dribbble-content .tag2 {
-    margin: -4.8% auto auto 16%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-dribbble-content .tag2 {
-    margin: -3.8% auto auto 13%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .tag2 {
-    margin: -3.1% auto auto 10%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-dribbble-content .tag2 {
-    margin: -2.3% auto auto 8%;
-  }
-}
-
-.container-dribbble-content .tag3 {
-  width: 120px;
-  height: 34px;
-  background: #464646;
-  border-radius: 20px;
-  margin: 10% auto auto 0%;
-  text-align: center;
-  line-height: 32px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 5% auto auto 0%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-dribbble-content .tag3 {
-    margin: 3% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-dribbble-content .tag3 {
-    margin: 3% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .tag3 {
-    margin: 2% auto auto 0%;
-  }
-}
-
-.container-dribbble-content .tag4 {
-  width: 120px;
-  height: 34px;
-  background: #464646;
-  border-radius: 20px;
-  margin: 10% auto auto 0%;
-  text-align: center;
-  line-height: 32px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: -12.7% auto auto 48%;
-}
-
-@media screen and (min-width: 370px) {
-  .container-dribbble-content .tag4 {
-    margin: -11% auto auto 41%;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .container-dribbble-content .tag4 {
-    margin: -9.8% auto auto 37%;
-  }
-}
-
-@media screen and (min-width: 560px) {
-  .container-dribbble-content .tag4 {
-    margin: -7% auto auto 27%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-dribbble-content .tag4 {
-    margin: -6% auto auto 23%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-dribbble-content .tag4 {
-    margin: -5.5% auto auto 21%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-dribbble-content .tag4 {
-    margin: -5.3% auto auto 19%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-dribbble-content .tag4 {
-    margin: -4.7% auto auto 18%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-dribbble-content .tag4 {
-    margin: -4% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .tag4 {
-    margin: -3.2% auto auto 11.5%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-dribbble-content .tag4 {
-    margin: -2.3% auto auto 9%;
-  }
-}
-
-.container-dribbble-content .tag5 {
-  width: 120px;
-  height: 34px;
-  background: #464646;
-  border-radius: 20px;
-  margin: 10% auto auto 0%;
-  text-align: center;
-  line-height: 32px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 5% auto auto 0%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-dribbble-content .tag5 {
-    margin: 3% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .tag5 {
-    margin: 2% auto auto 0%;
-  }
-}
-
-.container-dribbble-content .btn {
-  display: block;
-  width: 156px;
-  height: 50px;
-  border: 2px solid #F0F0F0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 15px;
-  background: #2C2B2B;
-  margin: 15% auto auto 0%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-dribbble-content .btn {
-    margin: 10% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-dribbble-content .btn {
-    margin: 10% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-dribbble-content .btn {
-    margin: 5% auto auto 0%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-dribbble-content .btn {
-    margin: 5% auto auto 0%;
-  }
-  .container-dribbble-content .btn:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border: none;
-    -webkit-animation: animate 8s linear infinite;
-            animation: animate 8s linear infinite;
-    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  @-webkit-keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .btn {
-    margin: 4% auto auto 0%;
-  }
-}
-
-.container-dribbble-content .btn a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-size: 0.8rem;
-  color: #F0F0F0;
-  text-decoration: none;
-  margin: auto auto auto 23%;
-  line-height: 45px;
-}
-
-.container-dribbble-content .dribbble-mock img {
-  width: 90%;
-  margin: 20% auto auto 0%;
-}
-
-@media screen and (min-width: 750px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 40%;
-    margin: -50% auto auto 50%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 40%;
-    margin: -60% auto auto 50%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 35%;
-    margin: -40% auto auto 45%;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 35%;
-    margin: -60% auto auto 45%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 35%;
-    margin: -40% auto auto 40%;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 30%;
-    margin: -40% auto auto 40%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-dribbble-content .dribbble-mock img {
-    width: 30%;
-    margin: -40% auto auto 35%;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  .container-dribbble-content .dribbble-mock img {
     width: 25%;
     margin: -40% auto auto 35%;
   }
@@ -7992,6 +7722,76 @@ body, html {
   }
 }
 
+.review {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+.review .linkedin-link {
+  margin: 5% auto auto auto;
+}
+
+.review .linkedin-link a {
+  text-decoration: none;
+  color: #03a9f4;
+}
+
+.review .derek-info {
+  margin: 10% auto auto 0%;
+  font-size: 22px;
+  width: 80%;
+}
+
+@media screen and (min-width: 820px) {
+  .review .derek-info {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .review .derek-info {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .review {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .review {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .review {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+  .review a:hover {
+    color: #F0F0F0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .review {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .review {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
 .container-client-catchphrase {
   font-size: 0.8rem;
   text-align: center;
@@ -8087,7 +7887,7 @@ body, html {
           box-sizing: border-box;
   border-radius: 15px;
   background: #2C2B2B;
-  margin: 15% auto auto 10%;
+  margin: 20% auto auto 10%;
 }
 
 @media screen and (min-width: 560px) {
@@ -9961,6 +9761,76 @@ body, html {
 
 @media screen and (min-width: 1900px) {
   .ambition-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.derek-review {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+.derek-review .linkedin-derek {
+  margin: 5% auto auto auto;
+}
+
+.derek-review .linkedin-derek a {
+  text-decoration: none;
+  color: #03a9f4;
+}
+
+.derek-review .derek-title {
+  margin: 10% auto auto 0%;
+  font-size: 22px;
+  width: 80%;
+}
+
+@media screen and (min-width: 820px) {
+  .derek-review .derek-title {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .derek-review .derek-title {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .derek-review {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .derek-review {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .derek-review {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+  .derek-review a:hover {
+    color: #F0F0F0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .derek-review {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .derek-review {
     margin: 10% auto auto 35%;
     width: 30%;
   }
