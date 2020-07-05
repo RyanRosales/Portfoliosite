@@ -9766,6 +9766,21 @@ body, html {
   }
 }
 
+.ambition-intro .twine-hire, .ambition-intro .dribbble-hire, .ambition-intro .upwork-hire {
+  margin: 5% auto auto auto;
+}
+
+.ambition-intro .twine-hire a, .ambition-intro .dribbble-hire a, .ambition-intro .upwork-hire a {
+  text-decoration: none;
+  color: #03a9f4;
+}
+
+@media screen and (min-width: 990px) {
+  .ambition-intro .twine-hire a:hover, .ambition-intro .dribbble-hire a:hover, .ambition-intro .upwork-hire a:hover {
+    color: #F0F0F0;
+  }
+}
+
 .derek-review {
   width: 80%;
   margin: 15% auto auto auto;
