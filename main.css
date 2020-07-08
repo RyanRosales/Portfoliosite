@@ -3992,6 +3992,1248 @@ body, html {
   }
 }
 
+.container-travel-header {
+  color: #F0F0F0;
+  padding: 16px;
+  margin: 30% auto auto 5%;
+  width: 90%;
+}
+
+@media screen and (min-width: 560px) {
+  .container-travel-header {
+    margin: 20% auto auto 10%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .container-travel-header {
+    width: 60%;
+    margin: 20% auto auto 15%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .container-travel-header {
+    margin: 20% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container-travel-header {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container-travel-header {
+    margin: 10% auto auto 23%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-travel-header {
+    margin: 10% auto auto 23%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-travel-header {
+    margin: 10% auto auto 30%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-header {
+    margin: 10% auto auto 33%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container-travel-header .container-travel-head {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-travel-header .container-travel-head {
+    width: 50%;
+  }
+}
+
+.container-travel-header .container-travel-subhead {
+  width: 90%;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+  .container-travel-header .container-travel-subhead {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container-travel-header .container-travel-subhead {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-travel-header .container-travel-subhead {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-header .container-travel-subhead {
+    width: 100%;
+  }
+}
+
+.container-travel-img img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 990px) {
+  .container-travel-img img {
+    width: 80%;
+    margin: 5% auto auto 10%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-img img {
+    width: 50%;
+    margin: 5% auto auto 25%;
+  }
+}
+
+.travel-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-goals-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-goals-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-goals-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-goals-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-goals-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-goals-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-audience-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-audience-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-audience-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-audience-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-audience-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-audience-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-research-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-research-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-research-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-research-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-research-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-research-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-research-intro .travel-links a {
+  text-decoration: none;
+  color: #F0F0F0;
+  font-weight: bold;
+}
+
+.travel-research-intro .travel-interview {
+  width: 80%;
+}
+
+.travel-research-intro .travel-interview .travel-interview-img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 370px) {
+  .travel-research-intro .travel-interview .travel-interview-img {
+    width: 130%;
+    margin: 10% auto auto -5%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .travel-research-intro .travel-interview .travel-interview-img {
+    width: 150%;
+    margin: 10% auto auto -20%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-research-intro .travel-interview .travel-interview-img {
+    width: 220%;
+    margin: 10% auto auto -55%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-research-intro .travel-interview .travel-interview-img {
+    width: 220%;
+    margin: 20% auto auto -40%;
+  }
+}
+
+.travel-results-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-results-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-results-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-results-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-results-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-results-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-results-intro .travel-results-content {
+  width: 80%;
+}
+
+.travel-pain-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-pain-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-pain-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-pain-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-pain-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-pain-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-pain-intro .travel-pain-content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-pain-intro .travel-pain2-content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .travel-pain-intro .travel-pain3-content {
+    width: 85%;
+  }
+}
+
+.travel-persona-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-persona-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-persona-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-persona-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-persona-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-persona-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-persona-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-persona-intro .travel-persona {
+    width: 150%;
+    margin: 10% auto auto -30%;
+  }
+}
+
+.travel-flow-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-flow-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-flow-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-flow-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-flow-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-flow-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-flow-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-flow-intro .travel-flow-content {
+    width: 80%;
+  }
+}
+
+.travel-brand-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-brand-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-brand-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-brand-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-brand-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-brand-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-brand-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+.travel-ideations-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-ideations-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-ideations-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-ideations-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-ideations-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-ideations-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-ideations-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 760px) {
+  .travel-ideations-intro .travel-flow {
+    width: 120%;
+    margin: 10% auto auto -15%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-ideations-intro .travel-flow {
+    width: 180%;
+    margin: 10% auto auto -45%;
+  }
+}
+
+.travel-solution1-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-solution1-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-solution1-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-solution1-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-solution1-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-solution1-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-solution1-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-solution1-intro .travel-solution1-content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .travel-solution1-intro .travel-solution1 {
+    width: 120%;
+    margin: 10% auto auto -15%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-solution1-intro .travel-solution1 {
+    width: 180%;
+    margin: 10% auto auto -45%;
+  }
+}
+
+.travel-solution1-intro .travel-solution1-content2 {
+  margin: 10% auto auto auto;
+}
+
+.travel-solution2-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-solution2-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-solution2-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-solution2-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-solution2-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-solution2-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-solution2-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+.travel-solution2-intro .travel-solution2-content2, .travel-solution2-intro .travel-solution2-content3 {
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 760px) {
+  .travel-solution2-intro .travel-solution4 {
+    width: 120%;
+    margin: 10% auto auto -15%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-solution2-intro .travel-solution4 {
+    width: 180%;
+    margin: 10% auto auto -45%;
+  }
+}
+
+.travel-experience3-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-experience3-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-experience3-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-experience3-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-experience3-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-experience3-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-experience3-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+.travel-experience4-intro {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-experience4-intro {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-experience4-intro {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-experience4-intro {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-experience4-intro {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-experience4-intro {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-experience4-intro img {
+  width: 100%;
+  margin: 10% auto auto auto;
+}
+
+.travel-prototype {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-prototype {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-prototype {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-prototype {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-prototype {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-prototype {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.travel-prototype a {
+  text-decoration: none;
+  color: #03a9f4;
+  font-weight: bold;
+}
+
+.travel-conclusion {
+  width: 80%;
+  margin: 15% auto auto auto;
+  color: #F0F0F0;
+}
+
+@media screen and (min-width: 660px) {
+  .travel-conclusion {
+    margin: 10% auto auto 15%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .travel-conclusion {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .travel-conclusion {
+    margin: 10% auto auto 25%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel-conclusion {
+    margin: 10% auto auto 30%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .travel-conclusion {
+    margin: 10% auto auto 35%;
+    width: 30%;
+  }
+}
+
+.container-travel-buttons .travel-next {
+  display: block;
+  width: 156px;
+  height: 50px;
+  border: 2px solid #03a9f4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  background: #2C2B2B;
+  margin: 15% auto auto 10%;
+}
+
+@media screen and (min-width: 560px) {
+  .container-travel-buttons .travel-next {
+    margin: 10% auto auto 10%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .container-travel-buttons .travel-next {
+    margin: 10% auto auto 15%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .container-travel-buttons .travel-next {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container-travel-buttons .travel-next {
+    margin: -6.5% auto auto 55%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container-travel-buttons .travel-next {
+    margin: -5.0% auto auto 50%;
+  }
+  .container-travel-buttons .travel-next:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border: none;
+    -webkit-animation: animate 8s linear infinite;
+            animation: animate 8s linear infinite;
+    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
+            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  @-webkit-keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-travel-buttons .travel-next {
+    margin: -4.5% auto auto 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-travel-buttons .travel-next {
+    margin: -3.5% auto auto 52%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-travel-buttons .travel-next {
+    margin: -3.2% auto auto 50%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-buttons .travel-next {
+    margin: -2.8% auto auto 50%;
+  }
+}
+
+.container-travel-buttons .travel-next a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+  color: #03a9f4;
+  text-decoration: none;
+  margin: auto auto auto 25%;
+  line-height: 45px;
+}
+
+@media screen and (min-width: 990px) {
+  .container-travel-buttons .travel-next a:hover {
+    color: #F0F0F0;
+  }
+}
+
+.container-travel-buttons .travel-home {
+  display: block;
+  width: 156px;
+  height: 50px;
+  border: 2px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  background: #2C2B2B;
+  margin: 15% auto auto 10%;
+}
+
+@media screen and (min-width: 560px) {
+  .container-travel-buttons .travel-home {
+    margin: 10% auto auto 10%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .container-travel-buttons .travel-home {
+    margin: 10% auto auto 15%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .container-travel-buttons .travel-home {
+    margin: 10% auto auto 20%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container-travel-buttons .travel-home {
+    margin: 15% auto auto 25%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container-travel-buttons .travel-home {
+    margin: 15% auto auto 30%;
+  }
+  .container-travel-buttons .travel-home:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border: none;
+    -webkit-animation: animate 8s linear infinite;
+            animation: animate 8s linear infinite;
+    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
+            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  @-webkit-keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-travel-buttons .travel-home {
+    margin: 15% auto auto 35%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-travel-buttons .travel-home {
+    margin: 15% auto auto 35%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-travel-buttons .travel-home {
+    margin: 10% auto auto 37%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-buttons .travel-home {
+    margin: 10% auto auto 40%;
+  }
+}
+
+.container-travel-buttons .travel-home a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+  color: #F0F0F0;
+  text-decoration: none;
+  margin: auto auto auto 37%;
+  line-height: 45px;
+}
+
+.container-travel-catchphrase {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #AEAEAE;
+  width: 70%;
+  margin: 20% auto auto 14%;
+}
+
+@media screen and (min-width: 400px) {
+  .container-travel-catchphrase {
+    width: 55%;
+    margin: 20% auto auto 22%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container-travel-catchphrase {
+    width: 55%;
+    margin: 10% auto auto 22%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container-travel-catchphrase {
+    width: 55%;
+    margin: 10% auto auto 22%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-travel-catchphrase {
+    width: 55%;
+    margin: 4% auto auto 22%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-catchphrase {
+    width: 55%;
+    margin: 4% auto auto 22.5%;
+  }
+}
+
+.container-travel-copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #AEAEAE;
+  margin: 5% auto auto -2%;
+}
+
+@media screen and (min-width: 660px) {
+  .container-travel-copyright {
+    margin: 2% auto auto auto;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container-travel-copyright {
+    margin: 2% auto auto auto;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container-travel-copyright {
+    margin: 2% auto auto auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-travel-copyright {
+    margin: 1% auto auto -1%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-travel-copyright {
+    margin: 1% auto auto -1%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .container-travel-copyright {
+    margin: 1% auto auto auto;
+  }
+}
+
 .container-crunchyroll-header {
   color: #F0F0F0;
   padding: 16px;
@@ -4792,6 +6034,117 @@ body, html {
   }
 }
 
+.container-crunchy-buttons .crunchy-previous {
+  display: block;
+  width: 156px;
+  height: 50px;
+  border: 2px solid #03a9f4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  background: #2C2B2B;
+  margin: 20% auto auto 0%;
+}
+
+@media screen and (min-width: 560px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 10% auto auto 0%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 10% auto auto 0%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 10% auto auto 0%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 15% auto auto 2%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 15% auto auto 5%;
+  }
+  .container-crunchy-buttons .crunchy-previous:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border: none;
+    -webkit-animation: animate 8s linear infinite;
+            animation: animate 8s linear infinite;
+    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
+            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  @-webkit-keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 15% auto auto 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 15% auto auto 5%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 15% auto auto 8%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container-crunchy-buttons .crunchy-previous {
+    margin: 10% auto auto 10%;
+  }
+}
+
+.container-crunchy-buttons .crunchy-previous a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+  color: #03a9f4;
+  text-decoration: none;
+  margin: auto auto auto 20%;
+  line-height: 45px;
+}
+
+@media screen and (min-width: 990px) {
+  .container-crunchy-buttons .crunchy-previous a:hover {
+    color: #F0F0F0;
+  }
+}
+
 .container-crunchy-buttons .crunchy-next {
   display: block;
   width: 156px;
@@ -4816,15 +6169,27 @@ body, html {
   }
 }
 
+@media screen and (min-width: 720px) {
+  .container-crunchy-buttons .crunchy-next {
+    margin: 10% auto auto 0%;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .container-crunchy-buttons .crunchy-next {
-    margin: 15% auto auto 45%;
+    margin: -7.8% auto auto 62%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container-crunchy-buttons .crunchy-next {
+    margin: -7.3% auto auto 58%;
   }
 }
 
 @media screen and (min-width: 990px) {
   .container-crunchy-buttons .crunchy-next {
-    margin: 15% auto auto 45%;
+    margin: -6% auto auto 53%;
   }
   .container-crunchy-buttons .crunchy-next:hover {
     background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
@@ -4856,15 +6221,27 @@ body, html {
   }
 }
 
+@media screen and (min-width: 1100px) {
+  .container-crunchy-buttons .crunchy-next {
+    margin: -5.6% auto auto 56%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .container-crunchy-buttons .crunchy-next {
-    margin: 15% auto auto 40%;
+    margin: -4.8% auto auto 45%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-crunchy-buttons .crunchy-next {
+    margin: -4.5% auto auto 48%;
   }
 }
 
 @media screen and (min-width: 1900px) {
   .container-crunchy-buttons .crunchy-next {
-    margin: 10% auto auto 35%;
+    margin: -3.5% auto auto 40%;
   }
 }
 
@@ -4909,15 +6286,27 @@ body, html {
   }
 }
 
+@media screen and (min-width: 720px) {
+  .container-crunchy-buttons .crunchy-home {
+    margin: 10% auto auto 0%;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .container-crunchy-buttons .crunchy-home {
-    margin: -7.5% auto auto 15%;
+    margin: -7.5% auto auto 32%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container-crunchy-buttons .crunchy-home {
+    margin: -6.7% auto auto 30%;
   }
 }
 
 @media screen and (min-width: 990px) {
   .container-crunchy-buttons .crunchy-home {
-    margin: -6% auto auto 15%;
+    margin: -5.8% auto auto 30%;
   }
   .container-crunchy-buttons .crunchy-home:hover {
     background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
@@ -4951,19 +6340,25 @@ body, html {
 
 @media screen and (min-width: 1100px) {
   .container-crunchy-buttons .crunchy-home {
-    margin: -5.5% auto auto 15%;
+    margin: -5.5% auto auto 33%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container-crunchy-buttons .crunchy-home {
-    margin: -4.8% auto auto 15%;
+    margin: -4.7% auto auto 25%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-crunchy-buttons .crunchy-home {
+    margin: -4% auto auto 28%;
   }
 }
 
 @media screen and (min-width: 1900px) {
   .container-crunchy-buttons .crunchy-home {
-    margin: -3.5% auto auto 20%;
+    margin: -3.5% auto auto 25%;
   }
 }
 
@@ -5016,7 +6411,7 @@ body, html {
 
 @media screen and (min-width: 1200px) {
   .container-crunchy-catchphrase {
-    margin: 10% auto auto 7%;
+    margin: 10% auto auto 5%;
   }
 }
 
@@ -5067,7 +6462,7 @@ body, html {
 
 @media screen and (min-width: 1200px) {
   .container-crunchy-copyright {
-    margin: 1% auto auto -30%;
+    margin: 1% auto auto -35%;
   }
 }
 
@@ -6223,1371 +7618,6 @@ body, html {
 
 @media screen and (min-width: 2000px) {
   .container-discord-copyright {
-    margin: 1% auto auto auto;
-  }
-}
-
-.container-travel-header {
-  color: #F0F0F0;
-  padding: 16px;
-  margin: 30% auto auto 5%;
-  width: 90%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-travel-header {
-    margin: 20% auto auto 10%;
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-travel-header {
-    width: 60%;
-    margin: 20% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-travel-header {
-    margin: 20% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-travel-header {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-header {
-    margin: 10% auto auto 23%;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .container-travel-header {
-    margin: 10% auto auto 23%;
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-header {
-    margin: 10% auto auto 30%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-header {
-    margin: 10% auto auto 33%;
-    width: 40%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-travel-header .container-travel-head {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-header .container-travel-head {
-    width: 50%;
-  }
-}
-
-.container-travel-header .container-travel-subhead {
-  width: 90%;
-  font-size: 1rem;
-}
-
-@media screen and (min-width: 720px) {
-  .container-travel-header .container-travel-subhead {
-    width: 80%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-header .container-travel-subhead {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-header .container-travel-subhead {
-    width: 60%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-header .container-travel-subhead {
-    width: 100%;
-  }
-}
-
-.container-travel-img img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-img img {
-    width: 80%;
-    margin: 5% auto auto 10%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-img img {
-    width: 50%;
-    margin: 5% auto auto 25%;
-  }
-}
-
-.travel-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-goals-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-goals-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-goals-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-goals-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-goals-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-goals-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-audience-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-audience-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-audience-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-audience-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-audience-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-audience-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-research-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-research-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-research-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-research-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-research-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-research-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-research-intro .travel-links a {
-  text-decoration: none;
-  color: #F0F0F0;
-  font-weight: bold;
-}
-
-.travel-research-intro .travel-interview {
-  width: 80%;
-}
-
-.travel-research-intro .travel-interview .travel-interview-img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 370px) {
-  .travel-research-intro .travel-interview .travel-interview-img {
-    width: 130%;
-    margin: 10% auto auto -5%;
-  }
-}
-
-@media screen and (min-width: 760px) {
-  .travel-research-intro .travel-interview .travel-interview-img {
-    width: 150%;
-    margin: 10% auto auto -20%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-research-intro .travel-interview .travel-interview-img {
-    width: 220%;
-    margin: 10% auto auto -55%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-research-intro .travel-interview .travel-interview-img {
-    width: 220%;
-    margin: 20% auto auto -40%;
-  }
-}
-
-.travel-results-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-results-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-results-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-results-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-results-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-results-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-results-intro .travel-results-content {
-  width: 80%;
-}
-
-.travel-pain-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-pain-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-pain-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-pain-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-pain-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-pain-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-pain-intro .travel-pain-content {
-    width: 80%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-pain-intro .travel-pain2-content {
-    width: 80%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .travel-pain-intro .travel-pain3-content {
-    width: 85%;
-  }
-}
-
-.travel-persona-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-persona-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-persona-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-persona-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-persona-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-persona-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-persona-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-persona-intro .travel-persona {
-    width: 150%;
-    margin: 10% auto auto -30%;
-  }
-}
-
-.travel-flow-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-flow-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-flow-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-flow-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-flow-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-flow-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-flow-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-flow-intro .travel-flow-content {
-    width: 80%;
-  }
-}
-
-.travel-brand-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-brand-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-brand-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-brand-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-brand-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-brand-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-brand-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-.travel-ideations-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-ideations-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-ideations-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-ideations-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-ideations-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-ideations-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-ideations-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 760px) {
-  .travel-ideations-intro .travel-flow {
-    width: 120%;
-    margin: 10% auto auto -15%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-ideations-intro .travel-flow {
-    width: 180%;
-    margin: 10% auto auto -45%;
-  }
-}
-
-.travel-solution1-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-solution1-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-solution1-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-solution1-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-solution1-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-solution1-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-solution1-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-solution1-intro .travel-solution1-content {
-    width: 80%;
-  }
-}
-
-@media screen and (min-width: 760px) {
-  .travel-solution1-intro .travel-solution1 {
-    width: 120%;
-    margin: 10% auto auto -15%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-solution1-intro .travel-solution1 {
-    width: 180%;
-    margin: 10% auto auto -45%;
-  }
-}
-
-.travel-solution1-intro .travel-solution1-content2 {
-  margin: 10% auto auto auto;
-}
-
-.travel-solution2-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-solution2-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-solution2-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-solution2-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-solution2-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-solution2-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-solution2-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-.travel-solution2-intro .travel-solution2-content2, .travel-solution2-intro .travel-solution2-content3 {
-  margin: 10% auto auto auto;
-}
-
-@media screen and (min-width: 760px) {
-  .travel-solution2-intro .travel-solution4 {
-    width: 120%;
-    margin: 10% auto auto -15%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-solution2-intro .travel-solution4 {
-    width: 180%;
-    margin: 10% auto auto -45%;
-  }
-}
-
-.travel-experience3-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-experience3-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-experience3-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-experience3-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-experience3-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-experience3-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-experience3-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-.travel-experience4-intro {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-experience4-intro {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-experience4-intro {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-experience4-intro {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-experience4-intro {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-experience4-intro {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-experience4-intro img {
-  width: 100%;
-  margin: 10% auto auto auto;
-}
-
-.travel-prototype {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-prototype {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-prototype {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-prototype {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-prototype {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-prototype {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.travel-prototype a {
-  text-decoration: none;
-  color: #03a9f4;
-  font-weight: bold;
-}
-
-.travel-conclusion {
-  width: 80%;
-  margin: 15% auto auto auto;
-  color: #F0F0F0;
-}
-
-@media screen and (min-width: 660px) {
-  .travel-conclusion {
-    margin: 10% auto auto 15%;
-    width: 65%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .travel-conclusion {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .travel-conclusion {
-    margin: 10% auto auto 25%;
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .travel-conclusion {
-    margin: 10% auto auto 30%;
-    width: 45%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .travel-conclusion {
-    margin: 10% auto auto 35%;
-    width: 30%;
-  }
-}
-
-.container-travel-buttons .travel-previous {
-  display: block;
-  width: 156px;
-  height: 50px;
-  border: 2px solid #03a9f4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 15px;
-  background: #2C2B2B;
-  margin: 15% auto auto 10%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-travel-buttons .travel-previous {
-    margin: 10% auto auto 10%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-travel-buttons .travel-previous {
-    margin: 10% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-travel-buttons .travel-previous {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-travel-buttons .travel-previous {
-    margin: 15% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-buttons .travel-previous {
-    margin: 15% auto auto 22%;
-  }
-  .container-travel-buttons .travel-previous:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border: none;
-    -webkit-animation: animate 8s linear infinite;
-            animation: animate 8s linear infinite;
-    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  @-webkit-keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .container-travel-buttons .travel-previous {
-    margin: 15% auto auto 24%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-buttons .travel-previous {
-    margin: 15% auto auto 28%;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .container-travel-buttons .travel-previous {
-    margin: 15% auto auto 30%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-buttons .travel-previous {
-    margin: 10% auto auto 34%;
-  }
-}
-
-.container-travel-buttons .travel-previous a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-size: 0.8rem;
-  color: #03a9f4;
-  text-decoration: none;
-  margin: auto auto auto 20%;
-  line-height: 45px;
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-buttons .travel-previous a:hover {
-    color: #F0F0F0;
-  }
-}
-
-.container-travel-buttons .travel-next {
-  display: block;
-  width: 156px;
-  height: 50px;
-  border: 2px solid #03a9f4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 15px;
-  background: #2C2B2B;
-  margin: 15% auto auto 10%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-travel-buttons .travel-next {
-    margin: 10% auto auto 10%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-travel-buttons .travel-next {
-    margin: 10% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-travel-buttons .travel-next {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-travel-buttons .travel-next {
-    margin: -6.8% auto auto 65%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-travel-buttons .travel-next {
-    margin: -6.2% auto auto 65%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-buttons .travel-next {
-    margin: -5% auto auto 62%;
-  }
-  .container-travel-buttons .travel-next:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border: none;
-    -webkit-animation: animate 8s linear infinite;
-            animation: animate 8s linear infinite;
-    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  @-webkit-keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .container-travel-buttons .travel-next {
-    margin: -4.5% auto auto 61%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-buttons .travel-next {
-    margin: -3.5% auto auto 58%;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .container-travel-buttons .travel-next {
-    margin: -3% auto auto 56%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-buttons .travel-next {
-    margin: -2.6% auto auto 56%;
-  }
-}
-
-.container-travel-buttons .travel-next a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-size: 0.8rem;
-  color: #03a9f4;
-  text-decoration: none;
-  margin: auto auto auto 25%;
-  line-height: 45px;
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-buttons .travel-next a:hover {
-    color: #F0F0F0;
-  }
-}
-
-.container-travel-buttons .travel-home {
-  display: block;
-  width: 156px;
-  height: 50px;
-  border: 2px solid #F0F0F0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 15px;
-  background: #2C2B2B;
-  margin: 15% auto auto 10%;
-}
-
-@media screen and (min-width: 560px) {
-  .container-travel-buttons .travel-home {
-    margin: 10% auto auto 10%;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .container-travel-buttons .travel-home {
-    margin: 10% auto auto 15%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .container-travel-buttons .travel-home {
-    margin: 10% auto auto 20%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-travel-buttons .travel-home {
-    margin: -6.5% auto auto 40%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-travel-buttons .travel-home {
-    margin: -6% auto auto 40%;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .container-travel-buttons .travel-home {
-    margin: -5% auto auto 42%;
-  }
-  .container-travel-buttons .travel-home:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#03a9f4), color-stop(#f441a5), color-stop(#ffeb3b), to(#03a9f4));
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border: none;
-    -webkit-animation: animate 8s linear infinite;
-            animation: animate 8s linear infinite;
-    -webkit-box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-            box-shadow: 0 0 15px #03a9f4, 0 0 25px #f441a5, 0 0 50px #ffeb3b, 0 0 75px #03a9f4;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  @-webkit-keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .container-travel-buttons .travel-home {
-    margin: -4.5% auto auto 43%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-buttons .travel-home {
-    margin: -3.5% auto auto 43%;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .container-travel-buttons .travel-home {
-    margin: -3% auto auto 43%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-buttons .travel-home {
-    margin: -2.6% auto auto 45%;
-  }
-}
-
-.container-travel-buttons .travel-home a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-size: 0.8rem;
-  color: #F0F0F0;
-  text-decoration: none;
-  margin: auto auto auto 37%;
-  line-height: 45px;
-}
-
-.container-travel-catchphrase {
-  font-size: 0.8rem;
-  text-align: center;
-  color: #AEAEAE;
-  width: 70%;
-  margin: 20% auto auto 14%;
-}
-
-@media screen and (min-width: 400px) {
-  .container-travel-catchphrase {
-    width: 55%;
-    margin: 20% auto auto 22%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-travel-catchphrase {
-    width: 55%;
-    margin: 10% auto auto 22%;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-travel-catchphrase {
-    width: 55%;
-    margin: 10% auto auto 22%;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .container-travel-catchphrase {
-    width: 55%;
-    margin: 4% auto auto 22%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-catchphrase {
-    width: 55%;
-    margin: 4% auto auto 22.5%;
-  }
-}
-
-.container-travel-copyright {
-  font-size: 0.8rem;
-  text-align: center;
-  color: #AEAEAE;
-  margin: 5% auto auto -2%;
-}
-
-@media screen and (min-width: 660px) {
-  .container-travel-copyright {
-    margin: 2% auto auto auto;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container-travel-copyright {
-    margin: 2% auto auto auto;
-  }
-}
-
-@media screen and (min-width: 820px) {
-  .container-travel-copyright {
-    margin: 2% auto auto auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-travel-copyright {
-    margin: 1% auto auto -1%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .container-travel-copyright {
-    margin: 1% auto auto -1%;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  .container-travel-copyright {
     margin: 1% auto auto auto;
   }
 }
