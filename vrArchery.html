@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+  
+  <link rel="shortcut icon" type="image/png" href="logos/favicon.png">
+  <title>Ryan Rosales • VRArchery</title>
+</head>
+
+<body>
+
+  <nav class="menu">
+    <div class="menu-logo">
+      <img src="logos/Personal Logo white.png">
+    </div>
+    <ul class="menu-nav">
+      <li><a href="index.html">Portfolio</a>
+      <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<div class="vrarchery-video-wrapper">
+  <div class="vrarchery-video">
+    <iframe src="https://www.youtube.com/embed/-EoSqckE8Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="archery-intro">
+  <div class="overview-archery">OVERVIEW</div>
+  <div class="overview-archery-body">A self-study for learning Unity, the basics of C# programming, and environment design.
+  </div>
+</div>
+
+<div class="archery-role">
+  <div class="archery-role-head">PROJECT DETAILS</div>
+  <div class="archery-role-body">
+    Project: Solo
+  <br><br>
+  Timeline: 2 weeks (February, 2021)
+  <br><br>
+  Role: UX Designer
+  <br><br>
+  Tools: Unity
+  </div>
+</div>
+
+<div id="container-archery-border-2">
+  <p class="container-border-problem">Coding</p>
+</div>
+
+<div class="archery-code">
+  <div class="archery-code-head">CODING A BOW AND ARROW</div>
+  <div class="archery-code-body">
+    With no background in C# programming, attempting to learn the language felt intimidating, but it didn't stop my 
+    curiousity of trying to understand it.
+    <br><br>
+    I referenced a tutorial series to help me setup the bow and arrow interactions. However, since Unity updates frequently,
+    the tutorial became outdated, resulting in a handful of code errors in the latest versions. <b>I eventually debugged the console 
+      errors by referencing Unity's documentations and various YouTube tutorials.</b>
+  </div>
+
+  <div class="archery-interaction">
+    <img class="interaction" src="VRarchery/gifs/bow-arrow-interaction.gif">
+  </div>
+
+</div>
+
+<div id="container-archery-border-1">
+  <p class="container-border-test">Testing</p>
+</div>
+
+<div class="archery-test">
+  <div class="archery-test-head">USABILITY TESTING</div>
+  <div class="archery-test-body">
+    I tested my prototype's functionality with two people. Their feedback mentioned the <b>bow and arrow felt unnatural</b>. 
+    When held, <b>the bow floated outside the hand model and the tutorial only set up the quiver to float in space</b>.
+  </div>
+</div>
+
+<div class="archery-replicate">
+  <div class="archery-replicate-head">REPLICATING REALISTIC ARCHERY</div>
+  <div class="archery-replicate-body">
+    <b>Bow</b>
+    <br><br>
+    I looked into the bow inspector in Unity and I discovered the position of the XRGrabInteractor was outside of the bow model.
+    I re-positioned the game object so it would sit within the hand model when picked up.
+  </div>
+
+  <div class="archery-bow">
+    <img class="bow" src="VRarchery/images/holding bow.jpg">
+  </div>
+
+  <br><br>
+
+  <div class="archery-replicate-body2">
+    <b>Arrow</b>
+    <br><br>
+    Instead of making users reach out into space to grab floating arrows, I attached the quiver to the main Camera Rig. 
+    Now, users can physically reach over their shoulder to grab an arrow.
+  </div>
+
+  <div class="archery-arrow">
+    <img class="arrow" src="VRarchery/gifs/arrow-grab.gif">
+  </div>
+
+</div>
+
+<div id="container-archery-border-3">
+  <p class="container-border-design">Design</p>
+</div>
+
+  <div class="archery-level">
+    <div class="archery-level-head">ENVIRONMENT DESIGN</div>
+    <div class="archery-level-body"> 
+      After solving the interaction problems, I designed various environments in Unity, beginning with a forest to the current Sci-fi industrial theme.
+    </div>
+
+    <div class="archery-level">
+      <img class="level" src="VRarchery/gifs/leveldesign.gif">
+    </div>
+  </div>
+
+    <div id="container-archery-border-5">
+      <p class="container-border-conclusion">Conclusion</p>
+    </div>
+
+    <div class="archery-conclusion">
+      <div class="archery-conclusion-head">WHAT I LEARNED</div>
+      <div class="archery-conclusion-body">
+        This project was an amazing hands-on experience to begin VR Design. I was able to familiarize myself in Unity and learn C# concepts.
+        In addition, I learned that people treat VR as if they're in the real world. It's very interesting to see that although people in VR know
+        they're in a immersive digital experience, they naturally perform instinctive actions.
+      </div>
+    </div>
+
+    <div id="container-border-end"></div>
+
+
+<div class="container-archery-tags">
+  <ul>
+    <li><a href="index.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</div>
+
+<div class="container-archery-next-project">
+  <div class="archery-next-project-head">UP NEXT</div>
+
+  <div class="archery-next-project">
+    <a href="synneko.html"><img src="VRarchery/next-Synneko.png"></a>
+  </div>
+</div>
+
+<footer>
+  <p class="container-archery-catchphrase">Designed and coded with patience and God's guidance</p>
+  <p class="container-archery-copyright">© Ryan Rosales 2020</p>
+</footer>
+
+</body>
