@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<link rel="shortcut icon" type="image/png" href="portfolio-files/Logos/favicon.png">
+<title>Ryan Rosales • UX Designer</title>
+</head>
+
+<body>
+
+<!--Loading screen-->
+<div id="overlay">
+    <div class="loader">
+        <h2>
+            <span><img src="portfolio-files/Logos/Personal-logo-gray.png"></span>
+            <span>Loading</span>
+            <span><b>Crunchyroll</b></span>
+        </h2>
+    </div>
+</div>
+
+<!--Loading screen JS-->
+<script>
+    var overlay =
+document.getElementById("overlay");
+
+window.addEventListener('load', function() 
+{
+    overlay.style.display = 'none';
+})
+</script>
+
+<!--Navbar-->
+<div class="navbar">
+    <div class="container-nav flex">
+        <img class="logo" src="portfolio-files/Logos/Personal Logo white.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">HomeVR</a></li>
+                <li><a href="https://www.linkedin.com/in/ryancrosales" target="blank">Contact</a></li>
+                <li><a href="portfolio-files/Resume/Ryan Rosales Resume.pdf" target="blank">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!--Project Header-->
+<section id="showcase">
+    <div class="crunchyroll-image"></div>
+</section>
+
+<!--Display Text-->
+<section class="text-head">
+    <div class="container">
+        <div class="display">
+        <h3>UX Case Study</h3>
+        <h1>CRUNCHYROLL</h1>
+        <h2>Revitalized the UX and UI of a Anime streaming platform</h2>
+        </div>
+    </div>
+</section>
+
+<!--Overview-->
+<section class="overview secondary-bg">
+    <div class="container">
+        <h2><b>Overview</b></h2>
+        <h2>A redesign of a leading Anime streaming platform where I modernized the UI and created a solution to organize saved Anime playlists.
+        </h2>
+        <h2><b>The Problem</b></h2>
+        <h2>Crunchyroll is the leading online distributor of licensed Japanese Anime for western audiences. However, with other distributors such 
+            as Netflix showcasing their own libraries of licensed Anime, users feel that the company needs to update their services to keep up with their competition.
+        </h2>
+
+        <ul class="tags">
+            <li><p><b>Project</b>: Solo</p></li>
+            <li><p><b>Timeline</b>: August, 2020</p></li>
+            <li><p><b>Role</b>: Research, ideation, wireframes, prototype</p></li>
+            <li><p><b>Software</b>: Figma, Photoshop, Pen & paper</p></li>
+        </ul>
+    </div>
+</section>
+
+<!--Research-->
+<section class="content">
+    <div class="container">
+        <h1>RESEARCH</h1>
+        <h3>In my research, I needed to understand the business and how much influence it currently holds in the Anime market. With over <b>70 million 
+            registered users</b> (updated July, 2020), <b>13 million monthly active users</b> (updated March, 2019), and <b>3 million paying subscribers</b> (updated July, 2020), 
+            Crunchyroll is without a doubt the leading Anime streaming service for western audiences.
+        </h3>
+        <h3><b>Business Goals</b></h3>
+        <h3>Crunchyroll's main forms of revenue is its <b>Premium subscription</b> and <b>online store</b>. 
+            <br><br>
+            The subscription allows users to watch Anime without advertisements and the ability to watch new episodes one hour after Japanese airing time. In addition, their store 
+            houses many Anime merchandise and other goods.
+        </h3>
+        <h3><b>User Conversion</b></h3>
+        <h3>Their methods of conversion are Anime, Manga, and drama content, SEO, news pages, and mobile games.
+        </h3>
+
+        <h3><b>Competitive Analysis</b></h3>
+        <h3>Data from my survey mentioned that <b>18.2% of users also use Funimation</b>, <b>81.8% also use Netflix</b>, <b>36.4% also use Hulu</b>, and three responders also use third-party websites.</h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Research/stream-platform-chart.png">
+
+        <h3><b>User Feedback</b></h3>
+        <h3>I conducted an online survey with <b>14 responders</b> and I asked for their overall experience using Crunchyroll and their personal suggestions for improvement. Feedback requested:
+        </h3>
+        <h3>
+            <b>• A UI update, especially the landing page and shows page.</b>
+            <br><br>
+            <b>• Dark mode.</b>
+            <br><br>
+            <b>•  A way to organize their queue/watch lists.</b>
+            <br><br>
+            <b>•  Filter options to improve the search engine.</b>
+            <br><br>
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Research/affinity-diagram.png">
+        <br><br>
+        <img class="img" src="portfolio-files/Crunchyroll/Research/Crunchyroll IA.jpg">
+
+        <h3><b>Persona</b></h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Research/Persona.jpg">
+    </div>
+</section>
+
+<!--What to redesign-->
+<section class="content">
+    <div class="container">
+        <h1>IDENTIFYING WHAT PAGES TO REDESIGN</h1>
+        <h3><b>Landing page</b>- Many users don't notice and utilize all of Crunchyroll's content. The optimal solution was to highlight Crunchyroll's navigation bar.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Current-design/landing-page.png">
+        
+        <h3><b>Shows page</b>- Users should have the freedom to make their searches as quick and painless as possible. Crunchyroll does have a filtration system for their 
+            search engine, but user feedback proved this confusing.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Current-design/shows page.png">
+
+        <h3><b>Queue List</b>- User feedback mentioned that favorited Anime is listed on the last viewed episode. This sparks confusion because many Anime have multiple seasons.
+            <br><br>
+            I tested this with an Anime that currently has 5 seasons. I previewed a random episode from a random season and checked my queue list. It read as “Shokugeki no Soma — 
+            Episode 5 *title name*.” Titles aren't specified and can lead to confusion.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Current-design/watch-list.png">
+
+        <h3><b>Anime Info Page</b>- Feedback mentioned that info pages should have enlarged the video previews and make the layout visually engaging. Users should feel 
+            they are paying for high quality content.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Current-design/anime-episode.png">
+    </div>
+</section>
+
+<!--Wireframe-->
+<section class="content">
+    <div class="container">
+        <h1>WIREFRAME AND A/B TESTING</h1>
+        <h3>I jumped into wireframing and through multiple iterations, I conducted A/B testing on a few screens to my Instagram followers for feedback. Then I continued iterating 
+            screens that received higher ratings by my followers.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/usability/a_b-testing.png">
+    </div>
+</section>
+
+<!--Testing-->
+<section class="content">
+    <div class="container">
+        <h1>USABILITY TESTING</h1>
+        <h3>I took 4 Crunchyroll users and had them test my prototype. Surprisingly, 100% of the testers liked the proposed solutions.
+        </h3>
+        <a href="https://www.figma.com/proto/mhi2vusvkQ1ghBgyThUozG/Crunchyroll-Case-Study?node-id=156%3A2&viewport=130%2C-387%2C0.05948466435074806&scaling=min-zoom" target="blank"><b>Click for the Figma prototype</b></a>
+    </div>
+</section>
+
+<!--Solutions-->
+<section class="content">
+    <div class="container">
+        <h1>SOLUTIONS</h1>
+        <h3><b>Storytelling</b>- Now with a modern layout, the landing page is simpler and more visually engaging.
+            <br><br>
+            I believe this approach would increase revenue and improve user conversion due to all Crunchyroll services being much more visible, along with clear call-to-actions.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Hi-Fi/Signed out UI Final.png">
+
+        <h3><b>Shows Page</b>- User feedback desired dark mode as many commented about eye strain. Finally, I simplified the search filter to optimize the search engine.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Hi-Fi/Anime List UI.png">
+
+        <h3><b>Watch List</b>- Users have the freedom to create multiple playlists, where they can organize their content.
+            <br><br>
+            This helps those who happen to share their account with multiple people. Finally, I added playlist and genre filters for quick and easy navigation.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Hi-Fi/Watch List-redesign.png">
+
+        <h3><b>Show Info Page</b>- A modernized layout gives hierarchy to a show's content. Progress is saved according to the last episode they watched which allows 
+            users to continue where they left off.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Hi-Fi/Anime Series Info UI.png">
+
+        <h3><b>Responsive Design</b>- Finally, I made a responsive layout as the current website is not responsive.
+        </h3>
+        <img class="img" src="portfolio-files/Crunchyroll/Hi-Fi/Responsive.png">
+    </div>
+</section>
+
+<!--Conclusion-->
+<section class="content">
+    <div class="container">
+        <h1>FINAL THOUGHTS</h1>
+        <h3>Since I was a one-man team for this redesign, I took this opportunity to put my full UX arsenal into practice to gather as much data from Crunchyroll 
+            and its users and use that information to drive the design solutions.
+            <br><br>
+            If I could go back, I would do more usability testing to maximize feedback on the proposed solutions.
+        </h3>
+    </div>
+</section>
+
+<!--Contact Message-->
+<section class="message secondary-bg">
+    <div class="container">
+        <h1>LET'S BUILD IMMERSIVE EXPERIENCES</h1>
+        
+        <a href="https://www.linkedin.com/in/ryancrosales" target="blank" class="btn">Contact</a>
+
+        <!--Footer-->
+        <div class="footer">
+            <footer class="container-nav">
+                <p>Copyright &copy; 2021 Ryan Rosales. Designed and coded. Love God, design, and XR</p>
+            </footer>
+        </div>
+    </div>
+</section>
+
+</body>
