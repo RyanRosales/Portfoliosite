@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<link rel="shortcut icon" type="image/png" href="portfolio-files/Logos/favicon.png">
+<title>Ryan Rosales • UX Designer</title>
+</head>
+
+<body>
+<!--Loading screen-->
+<div id="overlay">
+    <div class="loader">
+        <h2>
+            <span><img src="portfolio-files/Logos/Personal-logo-gray.png"></span>
+            <span>Loading</span>
+            <span><b>VRArchery</b></span>
+        </h2>
+    </div>
+</div>
+
+<!--Navbar-->
+<div class="navbar">
+    <div class="container-nav flex">
+        <img class="logo" src="portfolio-files/Logos/Personal Logo white.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">HomeVR</a></li>
+                <li><a href="https://www.linkedin.com/in/ryancrosales" target="blank">Contact</a></li>
+                <li><a href="portfolio-files/Resume/Ryan Rosales Resume.pdf" target="blank">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!--Project Header-->
+<section id="showcase">
+    <div class="archery-video-header">
+        <video src="portfolio-files/VRarchery/Demo.mp4" autoplay muted loop="true"></video>
+    </div>
+</section>
+
+<!--Display Text-->
+<section class="text-head">
+    <div class="container">
+        <div class="display">
+        <h3>VIRTUAL REALITY</h3>
+        <h1>VR ARCHERY</h1>
+        <h2>Learning Unity and VR Design</h2>
+        </div>
+    </div>
+</section>
+
+<!--Overview-->
+<section class="overview secondary-bg">
+    <div class="container">
+        <h2><b>Overview</b></h2>
+        <h2>A self-study for learning Unity, the basics of C# programming, and environment design.</h2>
+        <ul class="tags">
+            <li><p><b>Project</b>: Solo</p></li>
+            <li><p><b>Timeline</b>: 2 weeks (February, 2021)</p></li>
+            <li><p><b>Role</b>: UX/UI, 3D</p></li>
+            <li><p><b>Software</b>: Unity</p></li>
+        </ul>
+    </div>
+</section>
+
+<!--Demo-->
+<section class="content">
+    <div class="container">
+        <div class="iframe-container">
+            <iframe 
+            src="https://www.youtube.com/embed/-EoSqckE8Mg" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!--Coding Archery-->
+<section class="content">
+    <div class="container">
+        <h1>CODING A BOW AND ARROW</h1>
+        <h3>With no background in C# programming, attempting to learn the language felt intimidating, but it didn't stop my curiousity of trying to understand it.
+            <br><br>
+            I referenced a tutorial series to help me setup the bow and arrow interactions. However, since Unity updates frequently, the tutorial became outdated, 
+            resulting in a handful of code errors in the latest versions. <b>I eventually debugged the console errors by referencing Unity's documentations and various YouTube tutorials</b>.
+        </h3>
+        <img class="img" src="portfolio-files/VRarchery/gifs/bow-arrow-interaction.gif">
+    </div>
+</section>
+
+<!--Usability testing-->
+<section class="content">
+    <div class="container">
+        <h1>USABILITY TESTING</h1>
+        <h3>I tested my prototype's functionality with two people. Their feedback mentioned the <b>bow and arrow felt unnatural</b>. When held, <b>the bow floated outside the hand model and the tutorial 
+            only set up the quiver to float in space</b>.
+        </h3>
+    </div>
+</section>
+
+<!--Replicate Archery-->
+<section class="content">
+    <div class="container">
+        <h1>REPLICATING REALISTIC ARCHERY</h1>
+        <h3><b>Bow</b>
+            <br><br>
+            I looked into the bow inspector in Unity and I discovered the position of the XRGrabInteractor was outside of the bow model. I re-positioned the game object so it would sit within the hand model when picked up.
+        </h3>
+        <img class="img" src="portfolio-files/VRarchery/images/holding bow.jpg">
+        <h3>
+            <b>Arrow</b>
+            <br><br>
+            Instead of making users reach out into space to grab floating arrows, I attached the quiver to the main Camera Rig. Now, users can physically reach over their shoulder to grab an arrow.
+        </h3>
+        <img class="img" src="portfolio-files/VRarchery/gifs/arrow-grab.gif">
+    </div>
+</section>
+
+<!--Environment Design-->
+<section class="content">
+    <div class="container">
+        <h1>ENVIRONMENT DESIGN</h1>
+        <h3>
+            After solving the interaction problems, I designed various environments in Unity, beginning with a forest to the current Sci-fi industrial theme.
+        </h3>
+        <img class="img" src="portfolio-files/VRarchery/gifs/leveldesign.gif">
+    </div>
+</section>
+
+<!--Conclusion-->
+<section class="content">
+    <div class="container">
+        <h1>WHAT I LEARNED</h1>
+        <h3>This project was an amazing hands-on experience to begin VR Design. I was able to familiarize myself in Unity and learn C# concepts. In addition, 
+            I learned that people treat VR as if they're in the real world. It's very interesting to see that although people in VR know they're in a immersive 
+            digital experience, they naturally perform instinctive actions.
+        </h3>
+    </div>
+</section>
+
+<!--Pagination-->
+<section class="container next">
+    <a href="careerin.html">Previous</a>
+    <h1>NEXT</h1>
+    <a href="synneko.html"><img src="portfolio-files/next-img-thumbnails/synneko-next-thumb.png"></a>
+</section>
+
+<!--Contact Message-->
+<section class="message secondary-bg">
+    <div class="container">
+        <h1>LET'S BUILD IMMERSIVE EXPERIENCES</h1>
+        <a href="https://www.linkedin.com/in/ryancrosales" target="blank" class="btn">Contact</a>
+        <!--Footer-->
+        <div class="footer">
+            <footer class="container-nav">
+                <p>Copyright &copy; 2021 Ryan Rosales. Designed and coded. Love God, design, and XR</p>
+            </footer>
+        </div>
+    </div>
+</section>
+
+<!--Loading screen JS-->
+<script>
+    var overlay =
+document.getElementById("overlay");
+
+window.addEventListener('load', function() 
+{
+    overlay.style.display = 'none';
+})
+</script>
+</body>
