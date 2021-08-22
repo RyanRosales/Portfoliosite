@@ -1,0 +1,945 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F5F7;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 750px) {
+  a {
+    font-size: 1rem;
+  }
+}
+
+.tag-inactive {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: rgba(11, 11, 11, 0.9);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 5px;
+  padding: 5px;
+}
+
+.navbar a {
+  padding: 20px;
+  margin: 0;
+}
+
+@media screen and (min-width: 991px) {
+  .navbar a:hover {
+    color: #F5F5F7;
+    font-weight: bold;
+  }
+}
+
+.navbar .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-nav {
+  max-width: 1900px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 990px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 16px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 10px 5px;
+}
+
+h1 {
+  color: #F5F5F7;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+@media screen and (min-width: 991px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  color: #F5F5F7;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 991px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+h3 {
+  color: #A1A1A6;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+@media screen and (min-width: 991px) {
+  h3 {
+    width: 85%;
+    font-size: 18px;
+  }
+}
+
+h4 {
+  color: #A1A1A6;
+  font-size: 14px;
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+h5 {
+  color: #F5F5F7;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+.statement h3 {
+  color: #F5F5F7;
+}
+
+.statement h2 {
+  color: #F5F5F7;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 991px) {
+  .statement h2 {
+    font-size: 32px;
+  }
+}
+
+.link {
+  font-size: 16px;
+  color: #F5F5F7;
+}
+
+@media screen and (min-width: 991px) {
+  .link {
+    font-size: 18px;
+  }
+}
+
+p {
+  color: #F5F5F7;
+  font-size: 12px;
+}
+
+blockquote {
+  margin: 0 auto;
+  padding: 0 20px;
+  border-left: 5px solid #CD4BC9;
+}
+
+.quote {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 991px) {
+  .quote {
+    font-size: 22px;
+  }
+}
+
+.quote-source {
+  font-size: 14px;
+  color: #A1A1A6;
+}
+
+@media screen and (min-width: 991px) {
+  .quote-source {
+    font-size: 18px;
+  }
+}
+
+.interview-card {
+  background-color: #171717;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.interview-card h3 {
+  color: #F5F5F7;
+}
+
+b {
+  color: #F5F5F7;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 500px;
+}
+
+#showcase .vrJam-image {
+  background: url("/portfolio-files/VR-Jam-2021/VRJam-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 991px) {
+  #showcase .vrJam-image {
+    width: 100%;
+  }
+}
+
+#showcase .healthVR-image {
+  background: url("/portfolio-files/Healthcare_VR/healthVR-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 610px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 991px) {
+  #showcase .healthVR-image {
+    width: 100%;
+  }
+}
+
+#showcase .job-image {
+  background: url("/portfolio-files/JobApp/Showcase.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 991px) {
+  #showcase .job-image {
+    width: 100%;
+  }
+}
+
+#showcase .crunchyroll-image {
+  background: url("/portfolio-files/Crunchyroll/crunchyroll-showcase.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 991px) {
+  #showcase .crunchyroll-image {
+    width: 100%;
+  }
+}
+
+.head .container {
+  max-width: 1900px;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.header-heading {
+  color: #F5F5F7;
+  margin: 150px 0;
+  text-align: center;
+}
+
+.header-heading h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 55px;
+  background: -webkit-gradient(linear, left top, right top, from(#F17B41), color-stop(#F17B41), color-stop(#CD4BC9), to(#CD4BC9));
+  background: linear-gradient(90deg, #F17B41, #F17B41, #CD4BC9, #CD4BC9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .header-heading h1 {
+    font-size: 120px;
+  }
+}
+
+.header-heading h2 {
+  font-size: 17px;
+  font-weight: normal;
+  color: #F5F5F7;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header-heading h2 {
+    font-size: 36px;
+  }
+}
+
+.header-heading h3 {
+  font-size: 14px;
+  color: #A1A1A6;
+}
+
+@media screen and (min-width: 768px) {
+  .header-heading h3 {
+    font-size: 22px;
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+
+.header-heading h3 a {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #A1A1A6;
+}
+
+@media screen and (min-width: 768px) {
+  .header-heading h3 a {
+    font-size: 22px;
+  }
+}
+
+.mouse_scroll {
+  display: block;
+  margin: 0 auto;
+  width: 24px;
+  height: 100px;
+  margin-top: 125px;
+}
+
+.m_scroll_arrows {
+  display: block;
+  width: 5px;
+  height: 5px;
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  border-right: 2px solid #F5F5F7;
+  border-bottom: 2px solid #F5F5F7;
+  margin: 0 0 3px 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.unu {
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei {
+  -webkit-animation: mouse-scroll 1s infinite;
+  animation: mouse-scroll 1s infinite;
+}
+
+.unu {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-delay: alternate;
+          animation-delay: alternate;
+}
+
+.doi {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  animation-delay: .2s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.trei {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  animation-delay: .3s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  -webkit-transform: none;
+          transform: none;
+  border: 2px solid #F5F5F7;
+  top: 170px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: #F5F5F7;
+  position: relative;
+  height: 4px;
+  width: 4px;
+  border: 2px solid #F5F5F7;
+  border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes mouse-wheel {
+  0% {
+    top: 1px;
+  }
+  25% {
+    top: 2px;
+  }
+  50% {
+    top: 3px;
+  }
+  75% {
+    top: 2px;
+  }
+  100% {
+    top: 1px;
+  }
+}
+
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.vrJam-cover {
+  background: url("/portfolio-files/VR-Jam-2021/VRJam-header.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  height: 15rem;
+}
+
+@media screen and (min-width: 991px) {
+  .vrJam-cover {
+    height: 20rem;
+  }
+}
+
+.healthVR-cover {
+  background: url("/portfolio-files/Healthcare_VR/healthVR-header.png");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  height: 15rem;
+}
+
+@media screen and (min-width: 991px) {
+  .healthVR-cover {
+    height: 20rem;
+  }
+}
+
+.job-cover {
+  background: url("/portfolio-files/JobApp/Showcase.png");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  height: 15rem;
+}
+
+@media screen and (min-width: 991px) {
+  .job-cover {
+    height: 20rem;
+  }
+}
+
+.crunchyroll-cover {
+  background: url("/portfolio-files/Crunchyroll/crunchyroll-showcase.png");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  height: 15rem;
+}
+
+@media screen and (min-width: 991px) {
+  .crunchyroll-cover {
+    height: 20rem;
+  }
+}
+
+.google-cover {
+  background: url("/portfolio-files/Google/google-1st project.png");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  height: 15rem;
+}
+
+@media screen and (min-width: 991px) {
+  .google-cover {
+    height: 20rem;
+  }
+}
+
+.portfolio {
+  max-width: 1200px;
+  margin: 10% auto auto auto;
+}
+
+@media screen and (min-width: 990px) {
+  .portfolio {
+    margin: 5% auto auto auto;
+  }
+}
+
+.portfolio .portfolio-title {
+  color: #F5F5F7;
+}
+
+.portfolio .item {
+  margin: 10% auto auto auto;
+  padding: 20px 0px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.portfolio .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .item title {
+  color: #F5F5F7;
+}
+
+.project {
+  max-width: 1200px;
+}
+
+.project .container img {
+  width: 50%;
+}
+
+.overview, .next {
+  margin: auto;
+}
+
+.secondary-bg {
+  background-color: #0B0B0B;
+}
+
+.card-bg {
+  background-color: #171717;
+}
+
+.content {
+  padding: 50px 0px;
+}
+
+.game-download {
+  text-align: center;
+}
+
+.game-trailer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.game-trailer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-card, .public-event-card {
+  border-radius: 15px;
+  margin: 50px 0px;
+}
+
+@media screen and (min-width: 991px) {
+  .project-card:hover .project-title h1, .public-event-card:hover .project-title h1 {
+    background: -webkit-gradient(linear, left top, right top, from(#F17B41), color-stop(#E05BA2), to(#CD4BC9));
+    background: linear-gradient(90deg, #F17B41, #E05BA2, #CD4BC9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.project-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  margin: 15px 0px;
+}
+
+@media screen and (min-width: 991px) {
+  .project-title h1 {
+    font-size: 28px;
+  }
+}
+
+.project-title h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 991px) {
+  .project-title h3 {
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+.project-tags ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+.project-tags li {
+  margin: 20px 10px;
+  border: 1px solid #F5F5F7;
+  border-radius: 10px;
+  color: #F5F5F7;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 1px 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.about-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .about-img {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 120%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-content h1, h3 {
+    width: 75%;
+  }
+}
+
+.problem {
+  padding: 40px 0px;
+}
+
+.gradient-bg {
+  background-image: -webkit-gradient(linear, left top, right top, from(#F17B41), color-stop(#E05BA2), to(#CD4BC9));
+  background-image: linear-gradient(90deg, #F17B41, #E05BA2, #CD4BC9);
+}
+
+.videoVR {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.process h1 {
+  text-align: center;
+}
+
+.card {
+  background-color: #171717;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 60%;
+  }
+}
+
+.wireframe-mock {
+  background: url("/portfolio-files/JobApp/Wireframes/Wireframes.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.crunchyroll-wireframe {
+  background: url("/portfolio-files/Crunchyroll/Crunchyroll-Wireframes.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .prototype, .feedback, .testimonial, .study {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .prototype h2, h3 {
+    width: 75%;
+  }
+}
+
+.proto {
+  border-radius: 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+.message {
+  text-align: center;
+  padding: 20px 0;
+  margin: 10% auto auto auto;
+}
+
+.linkedin-btn {
+  font-weight: bold;
+  display: block;
+  padding: 13px 45px;
+  width: 240px;
+  height: 50px;
+  border-radius: 15px;
+  background: #0e76a8;
+  margin: 5% auto auto auto;
+}
+
+@media screen and (min-width: 750px) {
+  .linkedin-btn {
+    width: 270px;
+    padding: 12px 43px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .linkedin-btn:hover {
+    background: #33A3D9;
+  }
+}
+
+.btn {
+  font-weight: bold;
+  display: block;
+  padding: 10px 48px;
+  margin: 20px 0;
+  width: 240px;
+  height: 50px;
+  border: 2px solid #F5F5F7;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 750px) {
+  .btn {
+    width: 250px;
+    padding: 10px 43px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .btn:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#F17B41), color-stop(#CD4BC9), to(#F17B41));
+    background: linear-gradient(90deg, #F17B41, #CD4BC9, #F17B41);
+    background-size: 400%;
+    border: none;
+    -webkit-animation: animate 8s linear infinite;
+            animation: animate 8s linear infinite;
+    -webkit-box-shadow: 0 0 10px #F17B41, 0 0 5px #CD4BC9, 0 0 10px #F17B41;
+            box-shadow: 0 0 10px #F17B41, 0 0 5px #CD4BC9, 0 0 10px #F17B41;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  @-webkit-keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+}
+
+.btn-game {
+  font-weight: bold;
+  display: block;
+  padding: 12px 48px;
+  margin: 20px 0;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  background: #CD4BC9;
+  margin: auto;
+}
+
+@media screen and (min-width: 750px) {
+  .btn-game {
+    width: 260px;
+    padding: 10px 43px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .btn-game:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#F17B41), color-stop(#CD4BC9), to(#F17B41));
+    background: linear-gradient(90deg, #F17B41, #CD4BC9, #F17B41);
+    background-size: 400%;
+    border: none;
+    -webkit-animation: animate 8s linear infinite;
+            animation: animate 8s linear infinite;
+    -webkit-box-shadow: 0 0 10px #F17B41, 0 0 5px #CD4BC9, 0 0 10px #F17B41;
+            box-shadow: 0 0 10px #F17B41, 0 0 5px #CD4BC9, 0 0 10px #F17B41;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  @-webkit-keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 0;
+  margin: 5% auto auto auto;
+}
+/*# sourceMappingURL=main.css.map */
